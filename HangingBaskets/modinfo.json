@@ -1,10 +1,10 @@
 {
   "type": "content",
-  "modid": "hangingbaskets",
+  "modid": "hangingbasketsunofficialhaz",
   "name": "Hanging Baskets",
-  "authors": ["Nionidh"],
+  "authors": ["Nionidh", "Lasthazzerd"],
   "description": "Danglin' Baskets, Danglin' Flowerpots!",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "dependencies": {
     "game": ""
   }

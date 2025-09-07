@@ -4,12 +4,17 @@
     "height": 2,
     "width": 1,
     "ingredients": {
-      "P": { "type": "block", "code": "game:flowerpot-*", "skipVariants": [ "blue-raw", "red-raw", "fire-raw" ], "name": "kind"},
+      "P": {
+        "type": "block",
+        "code": "game:flowerpot-*",
+        "name": "kind",
+        "skipVariants": [ "blue-raw", "red-raw", "fire-raw" ]
+      },
       "R": { "type": "item", "code": "game:rope" }
     },
     "output": {
       "type": "block",
-      "code": "hangingflowerpot-{kind}",
+      "code": "hangingbaskets:hangingflowerpot-{kind}",
       "skipVariants": [ "blue-raw", "red-raw", "fire-raw" ]
     },
     "copyAttributesFrom": "P"
@@ -19,7 +24,16 @@
     "height": 1,
     "width": 1,
     "ingredients": {
-      "P": { "type": "block", "code": "hangingbaskets:hangingflowerpot-*", "skipVariants": [ "blue-raw", "red-raw", "fire-raw" ], "name": "kind", "returnedStack": { "type": "item", "code": "game:rope" } } },
+      "P": {
+        "type": "block",
+        "code": "hangingbaskets:hangingflowerpot-*",
+        "name": "kind",
+        "skipVariants": [ "blue-raw", "red-raw", "fire-raw" ],
+        "returnedStack": {
+          "type": "item",
+          "code": "game:rope"
+        }
+      } },
     "output": {
       "type": "block",
       "code": "game:flowerpot-{kind}",

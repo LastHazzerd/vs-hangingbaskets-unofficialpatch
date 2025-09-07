@@ -40,9 +40,8 @@
     "fillHeight": 0.375
   },
   "variantgroups": [
-    { "code": "type", "states": [ "blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan" ] },
-    { "code": "state", "states": [ "fired" ] }
-  ],  
+    { "code": "type", "states": [ "amber", "boneash", "celadon", "copper", "earthern", "moss", "ochre", "rutile", "seasalt", "tenmoku" ] }
+  ],
   "shape": { "base": "block/hangingflowerpot/empty" },
   "doNotRenderAtLod2": true,
   "creativeinventory": { "general": ["*"], "decorative": ["*"] },
@@ -53,8 +52,8 @@
   "maxStackSize": 8,
   "texturesByType": {
     "*": {
-      "sides": { "base": "game:block/clay/hardened/{type}", "overlays": [ "game:block/clay/overlay/flowerpot-sides" ] },
-      "topbottom": { "base": "game:block/clay/hardened/{type}", "overlays": [ "game:block/clay/overlay/flowerpot-topbot" ] },
+      "sides": { "base": "game:block/clay/flowerpot/sides/{type}", "overlays": [ "game:block/clay/overlay/flowerpot-sides" ] },
+      "topbottom": { "base": "game:block/clay/flowerpot/topbottom/{type}", "overlays": [ "game:block/clay/overlay/flowerpot-topbot" ] },
       "soil": { "base": "game:block/clay/planter/soil" },
       "rope": { "base": "game:item/resource/rope" }
     }
