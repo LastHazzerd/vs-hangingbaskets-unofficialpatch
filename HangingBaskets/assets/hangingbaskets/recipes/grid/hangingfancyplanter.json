@@ -23,6 +23,7 @@
     "ingredientPattern": "P",
     "height": 1,
     "width": 1,
+    "showInCreatedBy": false,
     "ingredients": {
       "P": {
         "type": "block",
@@ -33,7 +34,8 @@
           "type": "item",
           "code": "game:rope"
         }
-      } },
+      }
+    },
     "output": {
       "type": "block",
       "code": "game:flowerpot-{kind}",

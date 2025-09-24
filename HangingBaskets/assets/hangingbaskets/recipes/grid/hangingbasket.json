@@ -17,11 +17,15 @@
     "ingredientPattern": "B",
     "height": 1,
     "width": 1,
+    "showInCreatedBy": false,
     "ingredients": {
       "B": {
         "type": "block",
         "code": "hangingbasket-*",
-        "returnedStack": { "type": "item", "code": "game:rope" }
+        "returnedStack": {
+          "type": "item",
+          "code": "game:rope"
+        }
       }
     },
     "output": {
