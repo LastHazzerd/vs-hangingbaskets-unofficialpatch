@@ -23,7 +23,7 @@
     "ingredientPattern": "P",
     "height": 1,
     "width": 1,
-    "showInCreatedBy": false,
+    "recipeGroup": 1,
     "ingredients": {
       "P": {
         "type": "block",

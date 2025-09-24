@@ -17,7 +17,7 @@
     "ingredientPattern": "B",
     "height": 1,
     "width": 1,
-    "showInCreatedBy": false,
+    "recipeGroup": 9,
     "ingredients": {
       "B": {
         "type": "block",
